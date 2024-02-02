@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@des/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "src-tauri"
+  ]
+}
