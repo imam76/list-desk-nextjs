@@ -7,108 +7,19 @@
     "distDir": "../out"
   },
   "package": {
-    "productName": "list-desk-nextjs",
-    "version": "0.0.1"
+    "productName": "List Desk",
+    "version": "../package.json"
   },
   "tauri": {
     "allowlist": {
       "all": false,
-      "clipboard": {
-        "all": false,
-        "readText": false,
-        "writeText": false
-      },
-      "dialog": {
-        "all": false,
-        "ask": false,
-        "confirm": false,
-        "message": false,
-        "open": false,
-        "save": false
-      },
-      "fs": {
-        "all": false,
-        "copyFile": false,
-        "createDir": false,
-        "exists": false,
-        "readDir": false,
-        "readFile": false,
-        "removeDir": false,
-        "removeFile": false,
-        "renameFile": false,
-        "scope": [],
-        "writeFile": false
-      },
-      "globalShortcut": {
-        "all": false
-      },
-      "http": {
-        "all": false,
-        "request": false,
-        "scope": []
-      },
-      "notification": {
-        "all": false
-      },
-      "os": {
-        "all": false
-      },
       "path": {
         "all": false
-      },
-      "process": {
-        "all": false,
-        "exit": false,
-        "relaunch": true,
-        "relaunchDangerousAllowSymlinkMacos": false
-      },
-      "protocol": {
-        "all": false,
-        "asset": false,
-        "assetScope": []
-      },
-      "shell": {
-        "all": false,
-        "execute": false,
-        "open": false,
-        "scope": [],
-        "sidecar": false
-      },
-      "window": {
-        "all": false,
-        "center": false,
-        "close": false,
-        "create": false,
-        "hide": false,
-        "maximize": false,
-        "minimize": false,
-        "print": false,
-        "requestUserAttention": false,
-        "setAlwaysOnTop": false,
-        "setCursorGrab": false,
-        "setCursorIcon": false,
-        "setCursorPosition": false,
-        "setCursorVisible": false,
-        "setDecorations": false,
-        "setFocus": false,
-        "setFullscreen": false,
-        "setIcon": false,
-        "setMaxSize": false,
-        "setMinSize": false,
-        "setPosition": false,
-        "setResizable": false,
-        "setSize": false,
-        "setSkipTaskbar": false,
-        "setTitle": false,
-        "show": false,
-        "startDragging": false,
-        "unmaximize": false,
-        "unminimize": false
       }
     },
     "bundle": {
       "active": true,
-      "category": "Productivity",
+      "category": "DeveloperTool",
       "copyright": "",
       "deb": {
         "depends": []
@@ -122,7 +33,6 @@
         "icons/icon.ico"
       ],
       "identifier": "com.zahir.dev",
-      "publisher": "Imam Nawawi",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -132,7 +42,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "App with Tauri",
+      "shortDescription": "",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -145,18 +55,21 @@
     },
     "updater": {
       "active": true,
-      "endpoints": [
-        "https://elijahlopez.ca/tauri-releases/google-keep-desktop/{{target}}/{{current_version}}",
-        "https://lenerva.com/tauri-releases/google-keep-desktop/{{target}}/{{current_version}}"
-      ],
       "dialog": true,
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDYwQjFERDRDQUYwRjE5MTgKUldRWUdRK3ZUTjJ4WVA5eGt0TnozYm1qVVFxcGNTVkRKd3VhaWlqeTJ2bGdSSERhZW9tQWxCcUUK"
+      "endpoints": [
+        "https://4175-103-171-163-133.ngrok-free.app/releases/{{target}}/{{current_version}}"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDYwQjFERDRDQUYwRjE5MTgKUldRWUdRK3ZUTjJ4WVA5eGt0TnozYm1qVVFxcGNTVkRKd3VhaWlqeTJ2bGdSSERhZW9tQWxCcUUK",
+      "windows": {
+        "installMode": "passive",
+        "installerArgs": []
+      }
     },
     "windows": [
       {
         "fullscreen": false,
         "resizable": true,
-        "visible": false,
+        "visible": true,
         "title": "List Desk"
       }
     ]
