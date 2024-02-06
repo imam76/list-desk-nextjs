@@ -7,7 +7,7 @@ export default function Greet() {
   const [greeting, setGreeting] = useState('');
 
   useEffect(() => {
-    invoke('greet', { name: 'Next.js lates version v.0.1.1' })
+    invoke('greet', { name: 'Next.js lates version v.0.1.3' })
       .then(result => setGreeting(result))
       .catch(console.error)
   }, [])
