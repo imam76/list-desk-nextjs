@@ -13,5 +13,5 @@ export default function Greet() {
   }, [])
 
   // Necessary because we will have to use Greet as a component later.
-  return <div>{greeting}</div>;
+  return <div style={{ color: 'red' }}>{greeting}</div>;
 }

@@ -15,6 +15,10 @@
       "all": false,
       "path": {
         "all": false
+      },
+      "http": {
+        "all": true,
+        "request": true
       }
     },
     "bundle": {
@@ -57,7 +61,7 @@
       "active": true,
       "dialog": true,
       "endpoints": [
-        "https://4175-103-171-163-133.ngrok-free.app/releases/{{target}}/{{arch}}/{{current_version}}"
+        "https://013c-103-171-163-133.ngrok-free.app/releases/{{target}}/{{arch}}/{{current_version}}"
       ],
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDYwQjFERDRDQUYwRjE5MTgKUldRWUdRK3ZUTjJ4WVA5eGt0TnozYm1qVVFxcGNTVkRKd3VhaWlqeTJ2bGdSSERhZW9tQWxCcUUK",
       "windows": {
